@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    padding: 0 2% 0 2%;
+}
+.left p{
+text-align: justify;
+}
+.menu{
+    background-color:grey;
+    text-align: center;
+    position: fixed;
+    width: 96%;
+    padding: 20px;
+}
+.menu ul{
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+    line-height: center;
+}
+.menu ul li{
+    line-height: center;
+    padding: 20px;
+    margin-left: 100px;
+}
+.menu ul li a {
+    text-decoration: none;
+    margin:auto;
+    line-height: center;
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+}
+.menu ul li a:hover{
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+.menu ul li a:hover{
+    color:black;
+ }
+ h2{
+    position: absolute;
+     margin-top: 100px;
+     color:rgb(255, 255, 255);
+     margin-left: 50px;
+     font-size: 80px;
+}
+.img img{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+#team h1{
+    color:black;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+.sections{
+    margin-left: 70px;
+    display: inline-flex;
+}
+.section1 img{
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    margin:60px;
+}
+#About-Us h1{
+    color:black;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+.about{
+    display: inline-flex;
+}
+.left{
+color:white;
+width: 50%;
+height: 500px;
+background-color:grey;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 20px;
+padding: 15px;
+}
+.right1{
+    width: 700px;
+    margin-left: 20px;
+    margin-top:20px;
+    height: 152px;
+    background-image: url("../assets/p1.jpg") ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.right2{
+    width:700px;
+    margin-left: 20px;
+    margin-top:20px;
+    height: 152px;
+    background-image: url(../assets/p2.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.right3{
+    width:700px;
+    margin-left: 20px;
+    margin-top:20px;
+    height: 152px;
+    background-image: url(../assets/p3.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+#technologies h1{
+    
+    color:black;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    margin: auto;
+}
+.common{
+background-color: white;
+width: 300px;
+height: 400px;
+overflow: hidden;
+border: 2px solid white;
+margin-bottom: 10px;
+text-align: justify;
+padding: 20px;
+border-radius: 10px;
+}
+.common h3{
+    text-align: center;
+    margin:10px;
+}
+
+.common img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    
+}
+.myButton{
+    display:block;
+    margin:10px;
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.myButton:hover{
+    background-color: blue;
+}
+.images{
+    text-align: center;
+}
+#cont1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#cont2{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#cont3{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#cont4{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+body{
+    background-color: rgb(206, 204, 204);
+}
+#contactus h1{
+    color:black;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+.contact{
+    background-color: rgb(233, 200, 205);
+    text-align: center;
+    width: 100%;
+    height: 90px;
+}
+
+ 
